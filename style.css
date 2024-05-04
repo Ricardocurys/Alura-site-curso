@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+}
+
+
+:root{
+    --botao-azul:#167BF7;
+    --branco-principal:#FFFFFF;
+    --cor-de-fundo: #00030C;
+    --cinza-secundario: #C0C0C0;
+    --branco-secundario:#F9F9F9;
+}   
+
+.titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+
+.principal{
+    display: flex;
+    color: var(--branco-principal);
+    background-image: url("./imagens/Background.png");
+    background-repeat: no-repeat;
+    gap: 20px;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    
+}
+.assinatura{
+    width: 588px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 4%;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap : 16px;
+}
+#btnAssine{
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    text-align: center;
+    color: var(--branco-principal);    
+    border-radius: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 512px;
+    padding: 20px;
+}
+#btnPlus{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 512px;
+    padding: 20px;
+}
+
+.descricao{
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+.imagem_combo{
+    margin: 1em 0 2em 0;
+
+}
+
+.plataformas{
+    display: flex;
+    align-items: center;
+
+}
+
+.texto__plataformas{
+    width: 588px;
+    height: 114px;
+    text-align: center;
+    margin-left: 5%;
+    
+}
+
+
+.imagem_plataforma{
+    width: 498;
+    height: 560;
+    margin-left: 8%;
+}
+.titulo__plataformas{
+    color: var(--branco-principal);
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0.2em;
+}
+.texto_secundario_plataformas{
+    color: var(--cinza-secundario);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.combo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 1em;
+    
+}
+.texto_e_botao{
+    width: 588px;
+    height: 144px;
+}
+.texto_combo{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    margin-bottom: 1em;
+
+}
+.combo_botao{
+    text-decoration: none;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    font-size: 16px;
+    width: 162.68px;
+    border-radius: 5px;
+    display: block;
+    padding: 15px;
+    align-items: center;
+}
+
+
+
+
+.vantagens_alura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.imgNotebook{
+    width: 547px;
+    height: 324px;
+    margin-left: 4%;
+}
+.texto_ao_lado_notebook{
+
+    width:  588px;
+    height: 114px;
+    align-items: center;
+    margin-left: 10%;
+}
+.titulo_notebook{
+    color:var(--branco-secundario);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+.vantagens_alura_texto{
+    color: var(--cinza-secundario);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+
+}   
+.dispositivos_compativeis{
+    margin-top: 15%;
+    text-align: center;
+}
+
+
+.lista_dispositivos{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin:  5em 0 ;
+
+}
+.titulo_dispositivos_compativeis{
+    color: var(--branco-principal);
+    margin-bottom: 0.2em;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+}
+
+.descricao_dispositivos{
+    color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+.lista__rodape{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    
+}
+.rodape_lista a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 1em;
+    
+}
+
+.rodape_primeiro_texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+}
+.rodape_segundo_texto{
+    margin-bottom:5%; 
+    color: var(--cinza-secundario);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.rodape_lista a:hover {
+  color: gold;
+}
